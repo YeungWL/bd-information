@@ -1,0 +1,457 @@
+ .yzjpzPack{
+   background: #fff;
+   width: 100%;
+   height: 100%;
+  .yzjpzBox{
+    padding: 0 20px;
+    .yzjcont_box{
+      padding-top: 25px;
+      padding-right:5px;
+      position: relative;
+      .cont_left{
+        .hover_cue_pack{
+          margin-top: 7px;
+          margin-right:65px;
+          .cue_icon:hover {
+            .hovershow{
+              display: block;
+            }
+          }
+          .cue_icon:hover {
+            .top_icon{
+              display: block;
+            }
+          }
+          .cue_icon{
+            width: 20px;
+            height:20px;
+            margin-left: 5px;
+            float:right;
+            position: relative;
+            .top_icon{
+              display: none;
+              background: url(~assets/images/cue_zhzl.jpg) no-repeat -10px -5px;
+              height: 20px;
+              width: 30px;
+              position: absolute;
+              top: 20px;
+              left: -5px;
+              z-index: 199;
+            }
+            .hovershow{
+              display: none;
+              width: 180px;
+              height:50px;
+              border:1px solid #ddd;
+              position: absolute;
+              top:33px;
+              left:-35px;
+              z-index: 99;
+              p{
+                font-size: 12px;
+                color: #333;
+                margin-left: 8px;
+                margin-top: 7px;
+              }
+            }
+            i{
+              display: inline-block;
+              width: 20px;
+              height:20px;
+              background:url(~assets/images/fkicon.png) no-repeat -7px -56px; 
+              cursor: pointer;
+            }
+          }
+        }
+        .cont_area_box{
+          border-bottom: 1px solid #ddd;
+          width: 100%;
+          margin-bottom: 20px;
+          .checkbox_p{
+            font-size: 12px;
+            color: #333;
+            margin-top: 8px;
+            margin-bottom: 5px;
+          }
+          .checkbox_ul{
+            margin-bottom: 15px;
+            li{
+              padding: 5px 0;
+              font-size: 12px;
+              color:#333;
+              span{display: inline-block;}
+              .check{width:170px;vertical-align: top;}
+              .price{width:120px;vertical-align: top;}
+              .depict{
+                width:430px;
+                a{color:#2785ff;cursor: pointer;width: 35px;display: inline-block;}
+              }
+            }
+          }
+          .area_tit{
+            width: 100%;
+            .children_box{
+              margin-top: 15px;
+              h3{width: 70px;}
+              .area_cont{
+                width: 610px;
+                margin-left:10px;
+                position: relative;
+                .dw{
+                  margin-right: 0;
+                  position: absolute;
+                  top: 0;
+                  right: -25px;
+                }
+                .sliderEl{
+                  .cue{
+                    .cue_b{
+                      i{
+                        left:24px;
+                      }
+                    }
+                    .cue_c{
+                      text-align: center;
+                      i{
+                        left:35px;
+                      }
+                    }
+                    .cue_d{
+                      margin-left: 8px;
+                      text-align: right;
+                      i{
+                        left:35px;
+                      }
+                    }
+                    .cue_e{
+                      text-align: right;
+                      i{
+                        left:54px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            h3{
+              display: inline-block;
+              line-height: 35px;
+              width: 95px;
+              font-size: 12px;
+              font-weight: bold;
+              color:#333;
+              text-align: right;
+              float: left;
+            }
+            .area_cont{
+              display: inline-block;
+              width:730px;
+              margin-left: 45px;
+              .num_box{
+                position: relative;
+                .num{
+                  top: 6px;
+                  right:135px;
+                  font-weight: bold;
+                }
+                .unit{
+                  top: 6px;
+                  right:-35px;
+                }
+                .num,.unit{
+                  position: absolute;
+                  font-size: 12px;
+                  width: 30px;
+                  color: #333;
+                  display: inline-block;
+                }
+              }
+              .sliderEl{
+                width: 610px;
+                margin-left: 2px;
+                display: inline-block;
+                position: relative;
+                margin-bottom: 20px;
+                .cue{
+                  position: absolute;
+                  bottom: -15px;
+                  left:0;
+                  z-index: 99;
+                  width: 74%;
+                  height:30px;
+                  span{
+                    display: inline-block;
+                    height: 30px;
+                    width:85px;
+                    font-size: 12px;
+                    color:#999;
+                    line-height: 30px;
+                    position: relative;
+                    i{
+                      position: relative;
+                      top:-16px;
+                      left:0;
+                      display: inline-block;
+                      height:8px;
+                      width: 2px;
+                      background: #E4E8F1;
+                    }
+                  }
+                  .cue_b{
+                    i{
+                      left:24px;
+                    }
+                  }
+                  .cue_c{
+                    text-align: center;
+                    i{
+                      left:27px;
+                    }
+                  }
+                  .cue_d{
+                    margin-left: 8px;
+                    text-align: right;
+                    i{
+                      left:24px;
+                    }
+                  }
+                  .cue_e{
+                    text-align: right;
+                    i{
+                      left:45px;
+                    }
+                  }
+
+                }
+              }
+              .dw{
+                margin-top: 11px;
+                display: inline-block;
+                width: 20px;
+                float: right;
+                margin-right: 95px;
+              }
+              .cue_ul{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                li{
+                  height:30px;
+                  font-size: 12px;
+                  color: #333;
+                  i{
+                    display: inline-block;
+                    background: #999;
+                    width:5px;
+                    height:5px;
+                    border-radius: 50%;
+                    float: left;
+                    margin-top: 9px;
+                    margin-right: 6px;
+                  }
+                }
+              }
+              .checked_box{
+                height: 60px;
+                .cue_s{color: #999;font-size: 12px;margin-left: 15px;}
+              }
+              .ipchecked{
+                height: 33px;
+                margin-top: 7px;
+              }
+            }
+          }
+        }
+      }
+      .cue_pwd{
+        height: 25px;
+        margin-left: 5px;
+        .aqdj{
+          line-height: 15px;
+          height: 20px;
+          p{
+            float: right;
+            width: 27px;
+            height: 15px;
+            background: #ddd;
+            margin-left: 2px;
+          }
+        }
+      }
+      .sjfp{
+        height:190px;
+        p{
+          font-size: 12px;
+          color:#999;
+        }
+      }
+      .sdpz{
+        height:190px;
+        p{
+          font-size: 12px;
+          color:#999;
+        }
+        .setpassword{
+          height: 50px;
+          span{
+            display: inline-block;
+            font-size: 12px;
+            color: #333;
+            }
+          .tit{
+            width:77px;
+            line-height: 50px;
+            
+          }
+        }
+      }
+      .cont_right_box{
+        width: 300px;
+        height: 550px;
+        float: right;
+        .cont_right{
+          padding: 0 15px;
+          width: 270px;
+          height: 550px;
+          background: #f5f9ff;
+          border-radius: 3px;
+          h5{
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+            line-height: 55px;
+          }
+          .bill_cont{
+             height: 370px;
+             border-top: 1px solid #ddd;
+             border-bottom: 1px solid #ddd;
+             overflow: auto;
+             .lists_box{
+                border-bottom: 1px solid #ddd;
+                .bill_s{
+                  height: 30px;
+                  span{display: inline-block;}
+                  .tit{
+                    width: 85px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: bold;
+                    text-align: right;
+                    vertical-align: top;
+                  }
+                  .cont{
+                    width: 155px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    color:#333;
+                    margin-left: 20px;
+                    .hover_cue_pack{
+                      .cue_icon:hover {
+                        .hovershow{
+                          display: block;
+                        }
+                      }
+                      .cue_icon:hover {
+                        .top_icon{
+                          display: block;
+                        }
+                      }
+                      .cue_icon{
+                        width: 20px;
+                        height:20px;
+                        margin-left: 5px;
+                        float:right;
+                        position: relative;
+                        margin-top: 4px;
+                        .top_icon{
+                          display: none;
+                          background: url(~assets/images/cue_zhzl1.png) no-repeat -10px -5px;
+                          height: 20px;
+                          width: 30px;
+                          position: absolute;
+                          top: 20px;
+                          left: -5px;
+                          z-index: 199;
+                        }
+                        .hovershow{
+                          display: none;
+                          width: 103px;
+                          height: 86px;
+                          border:1px solid #ddd;
+                          position: absolute;
+                          top:33px;
+                          left:-35px;
+                          z-index: 99;
+                          .cue{
+                            font-size: 12px;
+                            color: #333;
+                            margin-left: 8px;
+                            margin-top: 7px;
+                            line-height:18px;
+                          }
+                        }
+                        i{
+                          display: inline-block;
+                          width: 20px;
+                          height:20px;
+                          background:url(~assets/images/fkicon.png) no-repeat -7px -56px; 
+                          cursor: pointer;
+                        }
+                      }
+                    }                  
+                  }
+                }
+             }
+          }
+          .bill_total{
+            height: 120px;
+            .lists_box{
+              margin:20px 0;
+                .btn_gm_box{
+                  height: 50px;
+                  margin-top: 15px;
+                  .btn{
+                    width:157px;
+                    height:42px;
+                    background: #4074e1;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: bold;
+                    float: right;
+                    text-align: center;
+                    line-height: 42px;
+                    cursor: pointer;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                  }
+                }
+                .bill_s{
+                  height: 30px;
+                  span{display: inline-block;}
+                  .tit{
+                    width: 85px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: bold;
+                    text-align: right;
+                    vertical-align: top;
+                  }
+                  .num{
+                    width: 155px;
+                    line-height: 30px;
+                    font-size: 22px;
+                    color:#4074e1;
+                    margin-left: 20px; 
+                    i{
+                      font-size: 12px;
+                    }
+                  }
+                }
+             }
+          }
+        }
+      }
+    }
+  }
+ }
